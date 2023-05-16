@@ -1,0 +1,277 @@
+.parent{
+display: flex;
+flex-direction: column;
+
+}
+.one{
+    background-color: black;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+.two{
+    height: 200px;  
+width:auto;
+    justify-content: center;
+    background-image: url("images/one.png")
+    ;
+    background-repeat: no-repeat;
+  
+  }
+
+  .list{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+   
+    list-style: none;
+   
+     
+
+  }
+  .list li{
+    color: red;
+    padding: 10px;
+
+  }
+  .list li a:hover{
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: red;
+
+  }
+  .listc{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+   
+    list-style: none;
+   
+     
+
+  }
+  .listc li{
+    color: red;
+    padding: 5px;
+
+  }
+  .three{
+    display: flex;
+    background-color: red;
+    height: 70px;
+    width: 100%;
+  }
+  .four{
+    background-image: url("images/gate2.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+  }
+  .five{
+    background-image: url("images/three.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+
+  }
+
+  .six{
+    background-color: rgb(240, 229, 229);
+width: auto;
+    height: 150px;
+
+  }
+
+  .seven{
+    background-color: gray;
+width: auto;
+    height: 600px;
+
+  }
+  .students{
+    background-image: url("images/botom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    
+  }
+  .imo{
+    position: relative;
+    left: 20px;
+    bottom: 180px;
+
+  }
+  .video{
+    position: relative;
+    right:  490px;
+    top: 170px;
+
+  }
+  /* Dropdown Button */
+.dropbtn {
+     background-color:red; 
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .eight{
+    background-color: black;
+    height: 500px;
+    width: auto;
+  }
+
+  .listS{
+    text-decoration: underline;
+    text-decoration-color: palevioletred;
+    display: flex;
+    flex-direction: row;
+   
+    list-style: none;
+   
+     
+
+  }
+
+
+  .listS li{
+    color: rgb(247, 243, 243);
+    padding: 50px;
+
+  }
+  .listS li a:hover{
+    color: rgb(246, 243, 243);
+    text-decoration: underline;
+    text-decoration-color: red;}
+
+
+    .listz{
+        text-decoration: none;
+    
+        flex-direction: row;
+       
+        list-style: none;
+        position: relative;
+        left: 400px;
+       
+         
+    
+      }
+    
+    
+      .listz li{
+        color: rgb(247, 243, 243);
+        padding: 10px;
+    
+      }
+
+
+      .listzs{
+        text-decoration: none;
+    
+        flex-direction: row;
+       
+        list-style: none;
+        position: relative;
+        left: 650px;
+        bottom: 350px;
+       
+         
+    
+      }
+    
+    
+      .listzs li{
+        color: rgb(247, 243, 243);
+        padding: 10px;
+    
+      }
+
+      
+      .move{
+        position: relative;
+        left: 20px;
+        bottom: 270px;
+        color: aliceblue;
+      }
+    
+.ADD{
+    color: rgb(45, 42, 42);
+    position: relative;
+    left: 40px;
+        bottom: 270px;
+}
+  
+ /* Dropdown Button */
+.dropbtn {
+
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+#pres{
+    width: 180px;
+    height: 35px;
+    border-radius: 325px;
+    color: rgb(88, 88, 87);
+    border-radius: 50px;
+
+
+}
+
+.campus{
+    height: 200px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+
+}
+.marquee{
+    height: 200px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.imageMar{
+    
+    border-bottom: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+}
+  
